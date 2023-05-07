@@ -8,12 +8,12 @@ package Modelos;
 public class Datos {
     
     int n;
-    int po;
+    Double po;
     String funcion;
     String derivada;
     
 
-    public Datos(int n,int po, String funcion, String derivada) {
+    public Datos(int n,Double po, String funcion, String derivada) {
         this.n = n;
         this.po = po;
         this.funcion = funcion;
@@ -29,11 +29,11 @@ public class Datos {
         this.n = n;
     }
 
-    public int getPo() {
+    public Double getPo() {
         return po;
     }
 
-    public void setPo(int po) {
+    public void setPo(Double po) {
         this.po = po;
     }
 
